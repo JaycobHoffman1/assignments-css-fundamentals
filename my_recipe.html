@@ -1,0 +1,75 @@
+<!-- Task 2 -->
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <!-- meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This form allows users to submit their own recipe.">
+    <meta name="author" content="Jaycob Hoffman">
+
+    <!-- links -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <!-- Baskerville SC font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap" rel="stylesheet">
+
+    <!-- Roboto font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baskervville+SC
+    &family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,
+    300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <!-- title -->
+    <title>My Recipe</title>
+</head>
+
+<body>
+    <header>
+        <h1>Classic Chocolate Chip Cookies</h1>
+    </header>
+
+    <main>
+        <article class="form">
+            <fieldset>
+                <legend><h2>My Recipe</h2></legend>
+                <form action="submit.html" method="post">
+                    <section class="field">
+                        <label for="user-recipe-name">Recipe Name: </label>
+                        <input type="text" name="user-recipe-name" aria-label="Recipe Name" id="user-recipe-name" required>
+                    </section>
+
+                    <br>
+                    
+                    <section class="field">
+                        <label for="user-recipe-name">Ingredients: </label>
+                        <textarea rows="10" cols="40" 
+                        name="user-recipe-name" aria-label="Ingredients" id="user-ingredients" required></textarea>
+                    </section>
+
+                    <br>
+
+                    <section class="field">
+                        <label for="user-recipe-name">Instructions: </label>
+                        <textarea rows="10" cols="40" 
+                        name="user-recipe-name" aria-label="Recipe Name" id="user-ingredients" required></textarea>
+                    </section>
+
+                    <a href="submit.html"><button id="submit-my-recipe" type="submit">Submit my recipe!</button></a>
+                </form>
+            </fieldset>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 - 2024 www.chocolatechipcookies.com - All Rights Reserved.</p>
+    </footer>
+</body>
+
+</html>

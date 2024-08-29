@@ -1,0 +1,92 @@
+/* Task 1 */
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    background-color: #f6e1ba;
+    color: #ffffff;
+}
+
+header, footer {
+    background-color: #964B00;
+    padding: 20px;
+}
+
+header {
+    font-family: "Baskervville SC", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+footer {
+    padding: 30px;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    box-shadow: 0 50vh 0 50vh #964B00;
+}
+
+.instructions, .form {
+    padding: 40px 20px 20px 20px;
+    color: #000000;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.divider {
+    padding: 0.25px;
+    background-color: #964B00;
+    margin: 0px 200px 0px 200px;
+}
+
+h2 {
+    padding-bottom: 10px;
+    color: #964b00;
+}
+
+ul {
+    padding-bottom: 20px;
+}
+
+li {
+    padding: 5px;
+    list-style-type: square;
+}
+
+#submit-your-own-recipe {  
+    margin: 30px;
+}
+
+#submit-my-recipe {
+    margin: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    border: 1.5px solid #964b00;
+    border-radius: 7px;
+    background-color: #964B00;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff
+}
+
+button:hover {
+    border-color: #964B00;
+    background-color: #f6e1ba;
+    color: #964B00;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+fieldset {
+    padding: 5px 20px 0px 20px;
+}
